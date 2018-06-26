@@ -1,0 +1,50 @@
+.weather-app {
+    text-align: center;
+}
+
+.logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+form {
+    margin: 20px;
+}
+
+input, button {
+    margin: 2px;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+.forecast-segment {
+    display: inline-block;
+    width: 140px;
+    height: 240px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #ABABAB;
+    margin: 5px;
+    font-size: 80%;
+    overflow: hidden;
+}
+
+.segment-header {
+    box-shadow: 1px 1px 1px #ABABAB;
+    background-color: #0b6bab;
+    line-height: 40px;
+    padding: 4px;
+    font-size: 120%;
+    font-weight: 700;
+    color: #FFF;
+}
