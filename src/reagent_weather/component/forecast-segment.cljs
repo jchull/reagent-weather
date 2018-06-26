@@ -1,3 +1,3 @@
-(ns reagent-weather.component.forecast-segment)
+(ns reagent-weather.forecast-segment.component)
 
 (defn forecast-segment [])
